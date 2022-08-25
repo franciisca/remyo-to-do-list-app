@@ -54,7 +54,7 @@ textarea {
     border: none;
     cursor: pointer;
     margin: 5px;
-    padding: 10px;
+    padding: 8px;
     background-color: #582C4D;
 }
 
@@ -147,4 +147,12 @@ font-weight: bold;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+.todo-list-item.listTitle{
+    color: #A26769;
+    text-align: center;
+    background: none;
+    font-size: 1.15rem;
+    font-weight: bold;
 }
