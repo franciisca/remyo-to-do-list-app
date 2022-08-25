@@ -20,7 +20,8 @@ module.exports = {
             id,
             {
                 title: req.body.title,
-                content: req.body.content
+                content: req.body.content,
+                dueDate: req.body.dueDate
             },
             err => {
                 if (err) return res.status(500).send(err);

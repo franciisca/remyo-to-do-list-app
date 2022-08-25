@@ -8,6 +8,12 @@ content: {
     type: String,
     required: true
 },
+
+dueDate: {
+    type: Date,
+    required: true
+},
+
 date: {
     type: Date,
     default: Date.now

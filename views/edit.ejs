@@ -21,6 +21,7 @@
                             <form action="/edit/<%= details._id %>" method="POST">
                                 <input type="text" value="<%= details.title %>" name="title">
                                 <textarea rows="6" cols="45" name="content"><%= details.content %></textarea>
+                                <input type="date" name="dueDate" value="dueDate">
                                 <button type="submit" class="confirm">Confirm</button>
                                 <a href="/" class="cancel">Cancel</a>
                             </form>
@@ -33,6 +34,7 @@
                                 <div class="todo-list-item-content">
                                     <%= details.content %>
                                 </div>
+                                <div class="todo-list-item-content date"><%= details.dueDate %></div>
                                 <a href="/edit/<%= details._id %>" class="edit"> <span class="fas fa-edit"></span>
                                 </a>
                                 <a href="/edit/remove/<%= details._id %>" class="remove"> <span class="fas fa-times"></span>
