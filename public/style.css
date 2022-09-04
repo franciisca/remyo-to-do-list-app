@@ -1,3 +1,10 @@
+/* paleta colores website: */
+/* #BFB5AF Pale silver
+#ECE2D0 Bone
+#D5B9B2 Silver Pink
+#A26769 Copper Rose
+#582C4D Dark Byzantium*/
+
 * {
     margin: 0;
     padding: 0;
@@ -12,16 +19,17 @@ body {
 .todo-container {
     color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 60%; */
+    left: 25%;
     padding: 20px;
     width: 600px;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%);   */
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .todo {

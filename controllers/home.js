@@ -22,9 +22,8 @@ module.exports = {
             console.log(todoTask)
             res.redirect("/");
         } catch (err) {
-            if (err) return res.status(500).send(err);
+            if (err) 
             res.redirect("/");
         }
     }
 }
-
